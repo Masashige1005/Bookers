@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.Bookers_title {
+	margin-left:25px;
+	margin-top:20px;
+	color:black;
+	font-size:25px;
+}
+.Bookers_text {
+	padding-top:15px;
+	padding-left:50px;
+	color:black;
+	font-size:13px;
+}
+.Bookers_jump{
+	padding-left:25px;
+	padding-top:10px;
+	font-size:13px;
+}
+.index_title {
+	margin-top:25px;
+	margin-left:30px;
+	color:black;
+	font-size:25px;
+}
+table{
+	width:70%;
+}
+th {
+	padding-left:50px;
+	width:30%;
+	color:black;
+}
+td {
+	padding-left:100px;
+	width:40%;
+	color:black;
+}
+.index_subtitle{
+	margin-top:20px;
+	margin-left:25px;
+	font-size:20px;
+	color:black;
+}
+.index_area{
+	padding-top:10px;
+	padding-left:25px;
+	color:black;
+}
+.index_bottan{
+	padding-top:5px;
+	padding-left:25px;
+}
+h4 {
+	color:black;
+}
+/*Show.hetmlのCSS*/
+.show_text{
+	padding:20px 50px;
+	color:black;
+}
+.show_item {
+	padding-left:30px;
+	clear:both;
+	width:150px;
+	height:30px;
+}
+/* edit.htmlのCSS*/
+.edit_title {
+	color:black;
+	font-size:30px;
+	padding-top:30px;
+	padding-left:30px;
+}
+.edit_text{
+	color:black;
+	font-size:12px;
+	padding-left:30px;
+	padding-top:10px;
+}
+.edit_area{
+	padding-left:30px;
+}
+.edit_item{
+	padding-top:10px;
+	padding-left:30px;
+}
+.alert-success{
+	padding:20px 20px;
+	color:green;
+}
